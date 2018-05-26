@@ -77,7 +77,7 @@ function draw(){
   
   textSize(30);
   fill(255,255,255);
-  text(time,110,70);
+  text(time,110,40);
   
   fill(255,255,255);
   rect(500,0,700,50);
