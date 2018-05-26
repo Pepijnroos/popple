@@ -92,6 +92,11 @@ function draw(){
   text("Essequibo",460,410);
   text("Berbice",593,520);
   text("Surinam",965,620);
+  textSize(20);
+  text("Individual slave transports to Berbice, Essequibo and Surinam, 1714-1756",520,35);
+  text("Legend",60,775);
+  image(legendshp,10,785);
+  
   
   // Update each ship
   for (i = 0; i < ships.length; i++){
