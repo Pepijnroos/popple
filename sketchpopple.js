@@ -76,7 +76,7 @@ function draw(){
   image(stars, 0, 0);
   
   textSize(30);
-  fill(255,255,255);
+  fill(0,0,255);
   text(time,110,40);
   
   fill(255,255,255);
@@ -89,11 +89,12 @@ function draw(){
   ellipse(452,438,20,20);
   ellipse(40,875,20,20); 
   textSize(20);
-  fill(0,0,0);
+  fill(0,0,255);
   text("Essequibo",460,410);
   text("Berbice",593,520);
   text("Surinam",965,620);
   textSize(20);
+  fill(0,0,0);
   text("Individual slave transports to Berbice, Essequibo and Surinam, 1714-1756",520,35);
   text("Legend",60,775);
   image(legendshp,10,785);
