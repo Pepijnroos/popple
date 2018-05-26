@@ -89,7 +89,9 @@ function draw(){
   ellipse(452,438,20,20);
   textSize(20);
   fill(0,0,0);
- // text("Essequibo",
+  text("Essequibo",455,420);
+  text("Berbice",590,530);
+  text("Surinam",956,600);
   
   // Update each ship
   for (i = 0; i < ships.length; i++){
