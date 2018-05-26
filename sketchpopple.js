@@ -76,8 +76,20 @@ function draw(){
   image(stars, 0, 0);
   
   textSize(30);
-  fill(255,255,0);
+  fill(255,255,255);
   text(time,110,70);
+  
+  fill(255,255,255);
+  rect(500,0,600,50);
+  rect(0,750,200,150);
+  rect(1200,840,400,60); 
+  fill(255,30,255);
+  ellipse(954,587,20,20);
+  ellipse(584,534,20,20);
+  ellipse(452,438,20,20);
+  textSize(20);
+  fill(0,0,0);
+ // text("Essequibo",
   
   // Update each ship
   for (i = 0; i < ships.length; i++){
