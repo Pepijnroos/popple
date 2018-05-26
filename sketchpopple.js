@@ -100,6 +100,9 @@ function draw(){
   textSize(15);
   text("Ship",100,815);
   text("Slave port,100,880); 
+  textSize(10);
+  text("Source: Slave Voyages Database, http://www.slavevoyages.org/, (26-05-2018).",1230,860);
+  text("Map: David Rumsey Map Collection, Henry Popple, Surinam, 1733.",1230,880);
   
   
   // Update each ship
