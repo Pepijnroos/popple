@@ -80,13 +80,14 @@ function draw(){
   text(time,110,70);
   
   fill(255,255,255);
-  rect(500,0,600,50);
+  rect(500,0,700,50);
   rect(0,750,200,150);
   rect(1200,840,400,60); 
   fill(255,30,255);
   ellipse(954,587,20,20);
   ellipse(584,534,20,20);
   ellipse(452,438,20,20);
+  ellipse(40,875,20,20); 
   textSize(20);
   fill(0,0,0);
   text("Essequibo",460,410);
@@ -96,6 +97,9 @@ function draw(){
   text("Individual slave transports to Berbice, Essequibo and Surinam, 1714-1756",520,35);
   text("Legend",60,775);
   image(legendshp,10,785);
+  textSize(15);
+  text("Ship,100,815);
+  text("Slave port,100,880); 
   
   
   // Update each ship
