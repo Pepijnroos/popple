@@ -98,7 +98,7 @@ function draw(){
   text("Legend",60,775);
   image(legendshp,10,785);
   textSize(15);
-  text("Ship,100,815);
+  text("Ship",100,815);
   text("Slave port,100,880); 
   
   
